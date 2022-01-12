@@ -24,6 +24,12 @@ Design
 **Order Service:** {gateway}/order-service
 **Product Service:** {gateway}/product-service
 
+> DDL Urls (Swagger)
+
+**Customer Service:** http://localhost:4345/swagger
+**Order Service:** http://localhost:57783/swagger
+**Product Service:** http://localhost:32806/swagger
+
 **Please read: ocelot.json for gateway detail**
 ```
 {

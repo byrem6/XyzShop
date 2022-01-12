@@ -6,7 +6,7 @@ namespace CustomerServices.Contracts.QueryHandlers
 {
     public interface ICustomerQueryHandler
     {
-        Task<List<Customer>> GetCustomers();
+        List<Customer> GetCustomers();
         Task<Customer> GetCustomer(int id);
     }
 }

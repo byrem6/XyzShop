@@ -27,9 +27,9 @@ namespace CustomerServices.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Customer>> GetCustomers()
+        public IEnumerable<Customer> GetCustomers()
         {
-            return await _customerQueryHandler.GetCustomers();
+            return _customerQueryHandler.GetCustomers();
         }
 
         [HttpGet("detail")]
