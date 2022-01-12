@@ -1,0 +1,40 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/v1/customer",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 4345
+        }
+      ],
+      "UpstreamPathTemplate": "/customer-service"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/order",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 57783
+        }
+      ],
+      "UpstreamPathTemplate": "/order-service"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/product",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 32806
+        }
+      ],
+      "UpstreamPathTemplate": "/product-service"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:9067"
+  }
+}

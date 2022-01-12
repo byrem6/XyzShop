@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OrderServices.Context.OrderServicesDbContext" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\OrderServicesDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrderServices.Controllers.OrderController" Collapsed="true">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAAQAAAAAAAAABQAAAAAAAIAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Controllers\OrderController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrderServices.Handlers.CommandHandlers.OrderCommandHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handlers\CommandHandlers\OrderCommandHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OrderServices.Handlers.QueryHandlers.OrderQueryHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgQAAgAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Handlers\QueryHandlers\OrderQueryHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OrderServices.Models.BaseModelObj" Collapsed="true">
+    <Position X="2" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAgAAIAAAA=</HashCode>
+      <FileName>Models\BaseModelObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrderServices.Models.Order" Collapsed="true">
+    <Position X="2" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAAAAAAAAAAAAAAAAAAQBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrderServices.RequestModels.CommandRequestModels.OrderRequestModel" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestModels\CommandRequestModels\OrderRequestModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrderServices.CommandRequestModels.OrderUpdateRequestModel" Collapsed="true">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestModels\CommandRequestModels\OrderUpdateRequestModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrderServices.RequestModels.QueryRequestModels.OrderRequestByDateModel" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestModels\QueryRequestModels\OrderRequestByDateModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="OrderServices.Contracts.CommandHandler.IOrderCommandHandler" Collapsed="true">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\CommandHandler\IOrderCommandHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OrderServices.Contracts.QueryHandlers.IOrderQueryHandler" Collapsed="true">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\QueryHandlers\IOrderQueryHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

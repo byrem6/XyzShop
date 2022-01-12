@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CustomerServices.Handlers.CommandHandlers.CustomerCommandHandler">
+    <Position X="3.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Handlers\CommandHandlers\CustomerCommandHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CustomerServices.Handlers.QueryHandlers.CustomerQueryHandler">
+    <Position X="3.75" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Handlers\QueryHandlers\CustomerQueryHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CustomerServices.RequestModels.CommandRequestModels.CustomerRequestModel">
+    <Position X="6.5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAQAQAAAAQAAACAAAAAAAAAAA=</HashCode>
+      <FileName>RequestModels\CommandRequestModels\CustomerRequestModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomerServices.CommandRequestModels.CustomerUpdateRequestModel">
+    <Position X="9" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAECAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestModels\CommandRequestModels\CustomerUpdateRequestModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomerServices.Controllers.CustomerController">
+    <Position X="7.25" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAIAAEAAAAAIAQAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Controllers\CustomerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomerServices.Context.CustomerServicesDbContext">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAQAAAAAIAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context\CustomerServicesDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomerServices.Models.BaseModelObj">
+    <Position X="12" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAgAAIAAAA=</HashCode>
+      <FileName>Models\BaseModelObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomerServices.Models.Customer">
+    <Position X="12" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAABAAAAAAAIAAAAQAQAAAIQAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomerServices.Models.City">
+    <Position X="13.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomerServices.Models.Country">
+    <Position X="13.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Country.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CustomerServices.Contracts.CommandHandler.ICustomerCommandHandler">
+    <Position X="0.5" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\CommandHandler\ICustomerCommandHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CustomerServices.Contracts.QueryHandlers.ICustomerQueryHandler">
+    <Position X="0.5" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Contracts\QueryHandlers\ICustomerQueryHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
